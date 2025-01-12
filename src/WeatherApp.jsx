@@ -5,7 +5,7 @@ import Infobox from "./InfoBox"
 export default function WeatherApp(){
     const [WeatherInfo,setWeatherInfo] = useState({
         city: "Pune",
-        feelslike: 26.84,
+        feelsLike: 26.84,
         temp:25.05,
         tempMin:22.05,
         tempMax:30.05,

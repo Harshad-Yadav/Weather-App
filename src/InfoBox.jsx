@@ -39,6 +39,8 @@ export default function Infobox({info}){
              ? <WbSunnyIcon/>
              :<AcUnitIcon/>
             }
+            &nbsp;
+            {info.temp}&deg;C
          
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }} component="span">
@@ -47,7 +49,7 @@ export default function Infobox({info}){
          <p>Temprature = {info.temp}</p>
          <p>Min Temp ={info.temp}&deg;C</p>
         <p>Max Temp ={info.temp}&deg;C</p>
-        <p>The Weather can be described as <i>{info.weather}</i> and feels like{info.feelslike}&deg;C</p>
+        <p>The Weather can be described as <i>{info.weather}</i> and feels like{info.feelslike}&deg;C</p>with{" "}
         </Typography>
       </CardContent>
       
